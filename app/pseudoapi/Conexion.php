@@ -1,8 +1,8 @@
 <?php
-   DEFINE("DB_HOST","mariadb-17648-0.cloudclusters.net");
+   DEFINE("DB_HOST","loclhost");
    DEFINE("DB_USER","fisc");
-   DEFINE("DB_PASS","fisc2021*");
-   DEFINE("DB_PORT","17664");
+   DEFINE("DB_PASS","");
+   DEFINE("DB_PORT","");
    DEFINE("DB_NAME","fisc_games");
 
    /*DEFINE("DB_HOST","localhost");
