@@ -1,0 +1,128 @@
+.mantenimiento{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 18px;
+}
+
+.gris_m{
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 18px;
+    width: 200px;
+    height: 30px;
+    background-color: #5ee43c;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.añadir_m{
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 18px;
+    width: 80%;
+    height: 30px;
+    background-color: #eee129;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.boton_añadir input{
+    background: blue;
+ }
+
+.titulo_m{
+    font-size: 50px;
+    text-align: center;
+}
+
+.titulo-mantenimiento{
+    font-size: 18px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.titulo-mantenimiento select{
+    border-radius: 5px;
+    width: 350px;
+    height: 30px;
+    border: 2px solid #000000;
+    background-color: white;
+    font-size: 18px;
+}
+
+.titulo-mantenimiento p{
+    font-size: 18px;
+}
+
+.campos input{
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 350px;
+    height: 30px;
+    background-color: white;
+}
+
+.titulo-mantenimiento button{
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 18px;
+    width: 200px;
+    height: 30px;
+    background-color: #9b9b9b;
+}
+
+.contenedor {
+    width: 500px;
+    border-radius: 5px;
+    border: 2px solid black;
+    position: relative;
+    background-color: white;
+}
+
+.contenedor:after {
+    content: "";
+    display: block;
+    padding-bottom: 20%;
+}
+  
+.hijo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titulo-eliminar{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.ni{ 
+    width: 60px; 
+    height: 50px; 
+}
+
+.s{
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 18px;
+    width: 100px;
+    height: 30px;
+    background-color: #008f39;
+}
+
+.n{
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 18px;
+    width: 100px;
+    height: 30px;
+    background-color: #ff0000;
+}
+
+/*Tabla preguntas*/
+.tablaPreguntas{
+    padding-left: 100px;
+    padding-right: 100px;
+}

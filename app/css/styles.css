@@ -1,0 +1,272 @@
+
+/*Comienzo de header*/
+header{
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+.encabezado{
+    position: relative;
+}
+.encabezado img{
+    width: 100%;
+}
+
+.encabezado h2{
+    font-size: 50px;
+    position: relative;
+    bottom: 75px;
+}
+/*fin de header*/
+/*Comienzo de configuracion de partida*/
+
+.configuracion{
+    background-color: #84d1e9;
+    position: relative;
+    width: 100%;
+    height: 150px;
+ }
+ 
+ .configuracion .regresar{
+     float: left;
+     padding: 20px;
+     position: relative;
+ }
+ 
+ .configuracion h1{
+     font-size: 30px;
+    position: relative;
+    right: 5%;
+    top: 100px;
+ }
+ 
+ .dificultad{
+    background-color: #84d1e9;
+    width: 100%;
+    height:410px;
+ }
+ 
+ .dificultad h2{
+    position: relative;
+    right: 130px;
+     background-color: white;
+     font-size: 25px;
+     float: left;
+     padding-top: 30px;
+     padding-bottom: 30px;
+     padding-left: 60px;
+     padding-right: 60px;
+     margin-left: 18%;
+     margin-top: 5%;
+ }
+ 
+ .dificultad select{
+    position: relative;
+    right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+     font-size: 20px;
+    margin-left: 19%;
+    margin-top: 5%
+ }
+ 
+ .dificultad button{
+     position: relative;
+     right: 100px;
+     background-color: rgb(68, 119, 17);
+     color: white;
+    padding-top: 15px;
+    padding-bottom:15px;
+    padding-left: 60px;
+    padding-right: 60px;
+     font-size: 30px;
+     margin-top: 5%;
+     margin-right: 31%;
+ }
+ 
+ 
+ /*fin de configuracion de partida*/
+  /*comienzo de jugar*/
+.boxjugar{
+    width: 100%;
+}
+
+.informacion{
+    border-left: #9bb651 5px solid;
+    border-right: #9bb651 5px solid;
+    position: absolute;
+    background-color: #84d1e9;
+    width: 30%;
+    height: 550px;
+}
+
+.informacion h2{
+    position: relative;
+    font-size: 35px;
+    padding: 5px;
+    top: 170px;
+}
+
+.informacion h1{
+    position: relative;
+    padding: 5px;
+    font-size: 30px;
+    top: 175px;
+}
+
+.preguntas{
+    background-color: #84d1e9;
+    float: right;
+    width: 69%;
+    height: 550px;
+    position: relative;   
+}
+
+.preguntas .regresar{
+    position: relative;
+    padding: 10px;
+    bottom: 20px;
+}
+
+.preguntas h2{
+    width: 800px;
+    bottom: 50px;
+    position: relative;
+    
+}
+
+.pregJugar{
+    justify-content: left;
+    margin: 15px;
+}
+
+.jugarBtn{
+    position: relative;
+    margin-bottom: 100px;
+    margin: 20px;
+    left: 33.3%;
+    width: 30%;
+    padding: 10px;
+}
+
+
+ /*fin de jugar*/
+ /*comienzo de puntaje*/
+ 
+ .pboxs{
+    background-color: #84d1e9;
+     width: 100%;
+     height:560px;
+ }
+
+ .pbox1{
+     position: relative;
+     background-color: white;
+     top: 50px;
+     margin: 57px;
+     float: left;
+     width: 275px;
+     height: 300px;
+     border:black 2px solid;
+ }
+
+ .pbox1_1{
+     position: relative;
+     bottom: 0px;
+    background-color: brown;
+    width: 100%;
+    height: 70px;
+    border-bottom: black 2px solid;
+ }
+
+ .pbox1_1 h2{
+    position: relative;
+    top: 20px;
+    font-size: 30px;
+}
+
+.pbox1_2 h1{
+    
+    position: relative;
+    font-size: 30px;
+    top: 30px;
+}
+
+.pbox1_2 h2{
+    position: relative;
+    top: 15px;
+}
+
+
+ .pbox2{
+     position: relative;
+    margin: 45px;
+    bottom: 40px;
+    float: left;
+    width: 400px;
+    position: relative;
+    left: 10px;
+    height: 430px;
+}
+
+.pbox2 h2{
+    padding-top: 20px;
+}
+
+.pbox3{
+    background-color: white;
+    margin:57px;
+    width: 275px;
+    height: 300px;
+    position: relative;
+    left: 20px;
+    float: left;
+    border:black 2px solid;
+    top: 50px;
+}
+
+.pbtn{
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+
+.pbtn button{
+    position: relative;
+    color: white;
+    background-color: rgb(22, 86, 170);
+    top: 10px;
+    font-size: 20px;
+    right: 470px;
+    width: 250px;
+    height: 70px;
+}
+ /*fin de puntaje*/
+
+.mover-tabla{
+    margin-top: 40px !important;;
+}
+
+/*comienzo de ayuda*/
+
+.Ayudaregresar, input{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.Ayudaregresar h2{
+    position: relative;
+    bottom: 40px;
+}
+
+.AyudaVideo{
+    position: relative;
+    bottom: 20px;
+    width: 100%;
+}
+/*fin de ayuda*/
+/*comienzo de rankings*/
+
+/*fin de rankings*/

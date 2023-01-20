@@ -1,0 +1,28 @@
+<div class="row">
+	<header>
+		<section class="encabezado">
+
+			<img src="img\header.jpeg">
+			<center>
+				<h2>SCRUMIZATE</h2>
+			</center>
+		</section>
+	</header>
+</div>
+<div class="titulo-eliminar" ng-controller="EliminarPreguntaController as ctrl">
+    <center>
+        <h1 class="titulo_m">Eliminar Pregunta</h1><br>
+        <div class="contenedor">
+            <div class="hijo"><p>{{ctrl.pregunta_eliminar}}</p></div>
+        </div>
+        <br><br>
+        <img src="img\adv.png" alt="" width="150" height="150">
+        <p>¿Está seguro que quiere eliminar esta pregunta?</p>
+        <br>
+        <input class="s" type="button" value="Si" ng-click="ctrl.eliminarPregunta()">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input class="n" type="button" value="No" ng-click="ctrl.cancelar()">
+    <center>
+</div>
+
+	

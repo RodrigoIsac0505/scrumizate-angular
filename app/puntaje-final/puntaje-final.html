@@ -1,0 +1,70 @@
+<header>
+    <section class="encabezado">
+
+        <img src="img\header.jpeg" height="99px">
+        <center>
+        <h2>SCRUMIZATE</h2>
+        </center>
+        
+    </section>
+
+</header> 
+
+<section class="pboxs">
+<section class="pbox1">
+    <section class="pbox1_1">
+        <center>
+        <h2>Informacion</h2>
+        </center>
+    </section>
+
+        <div ng-controller="PuntajeFinalController as ctrl">
+            <section class="pbox1_2">
+                <center>
+
+                <h1> Dificultad</h1>
+
+                <h1>{{ctrl.d}}</h1>
+                    
+                </center>
+            </section>
+        </div>
+</section >
+<section class="pbox2">
+  
+   <center>
+   <h2>Puntaje obtenido</h2>
+   <img src="https://i.gifer.com/8i75.gif" width="375" height="275">
+   <div ng-controller="PuntajeFinalController as ctrl">
+        <h2>{{ctrl.username}}</h2>
+    </div>
+   </center>
+</section>
+<section class="pbox3">
+    <section class="pbox1_1">
+        <center>
+        <h2>Puntaje obtenido</h2>
+        </center>
+    </section>
+   
+            <div  ng-controller="PuntajeFinalController as ctrl">
+                <section class="pbox1_2">
+                    <center>
+                    <h2>Puntaje:{{ctrl.puntajeCorrecto}}</h2>
+                    <h2>Correctas:{{ctrl.cantidadAcierto}}</h2>
+                    <h2>Incorrectas:  {{ctrl.cantidadError}}</h2>
+                    </center>
+                </section>
+            </div>
+
+</section>
+
+<section class="pbtn">
+    <center>
+        <div ng-controller="PuntajeFinalController as ctrl">
+            <button ng-click="ctrl.Salir()">Finalizar</button>
+        </div>
+    </center>
+</section>
+
+</section>

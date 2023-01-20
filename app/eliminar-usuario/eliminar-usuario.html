@@ -1,0 +1,45 @@
+<div class="row">
+	<header>
+		<section class="encabezado">
+	
+			<img src="img\header.jpeg">
+			<center>
+				<h2>SCRUMIZATE</h2>
+			</center>
+		</section>
+	</header>
+</div>
+<div class="container" ng-controller="EliminarUsuarioController as ctrl">
+	<section class="regresar">
+		<div ng-controller="AdicionarUsuarioController as ctrl" >
+			<input type="image"  ng-click="ctrl.regresar()" 
+					src="img\regresar.png" width="100" height="100">
+		</div>
+	</section>
+	<div class="encabezado">
+		<center>
+		<h1 style="color: rgb(14, 12, 12);">Eliminar usuario</h1>
+	</center>
+	</div>
+	
+	<table class="table table-striped">
+		<thead class="thead-dark">
+		  <tr>
+			<th>Posicion</th>
+			<th>Nombre</th>
+			<th>Cedula</th>
+			<th>Puntaje</th>
+			<th>Accion</th>
+		  </tr>
+		</thead>
+		<tbody>
+		  <tr ng-repeat = "x in ctrl.listaUsuario track by $index">
+			<td>{{$index + 1}}</td> 
+			<td>{{x.username}}</td>
+			<td>{{x.ID_usuario}}</td>
+			<td>{{x.score}}</td>
+			<td><button class="btn btn-primary" ng-click="ctrl.eliminarUsuario(x.ID_usuario)">Eliminar usuario</td>
+		  </tr>
+		</tbody>
+	  </table>
+</div>

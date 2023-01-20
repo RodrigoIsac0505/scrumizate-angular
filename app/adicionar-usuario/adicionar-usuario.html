@@ -1,0 +1,55 @@
+<div class="row">
+	<header>
+		<section class="encabezado">
+
+			<img src="img\header.jpeg">
+			<center>
+				<h2>SCRUMIZATE</h2>
+			</center>
+		</section>
+	</header>
+</div>
+<div class="container" ng-controller="AdicionarUsuarioController as ctrl">
+	<section class="regresar">
+			<input type="image"  ng-click="ctrl.regresar()" 
+					src="img\regresar.png" width="100" height="100">
+	</section>
+	<div class="encabezado">
+		<center>
+			<h1 style="color: rgb(14, 12, 12);">Crear usuario</h1>
+		</center>
+	</div>
+	<form>
+		<b>
+			<div class="form-group">
+				<label>Cedula</label>
+				<input type="text" class="form-control" placeholder="x-xxx-xxx" ng-model="ctrl.cedula">
+			</div>
+			<div class="form-group">
+				<label>Nombre</label>
+				<input type="text" class="form-control" placeholder="Juan" ng-model="ctrl.nombre">
+			</div>
+			<div class="form-group">
+				<label>Apellido</label>
+				<input type="text" class="form-control" placeholder="Perez" ng-model="ctrl.apellido">
+			</div>
+			<div class="form-group">
+				<label>Correo</label>
+				<input type="text" class="form-control" placeholder="example@utp.ac.pa" ng-model="ctrl.correo">
+			</div>
+			<div class="form-group">
+				<label>Tipo usuario</label>
+				<select class="form-control" ng-model="ctrl.tipoUsuario">
+					<option ng-value="1">Administrador</option>
+					<option ng-value="2">Docente</option>
+					<option ng-value="3">Estudiante</option>
+				</select>
+			</div>
+			<div class="d-grid gap-2 d-md-flex justify-content-md-center">
+				<button class="btn btn-dark" ng-click="ctrl.crearUsuario()">Crear usuario</button>
+			</div>
+		</b>
+	</form>
+	<br>
+	<br>
+</div>

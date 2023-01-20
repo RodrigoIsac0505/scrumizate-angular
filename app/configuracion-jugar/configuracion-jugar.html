@@ -1,0 +1,46 @@
+<header>
+
+	<section class="encabezado">
+
+		<img src="img\header.jpeg">
+		<center>
+			<h2>SCRUMIZATE</h2>
+		</center>
+
+	</section>
+
+</header>
+
+<section class="configuracion">
+
+	<div ng-controller="ConfiguracionJugarController as ctrl">
+	<section class="regresar">
+			<input type="image" src="img\regresar.png" width="100" height="100" ng-click="ctrl.regresar()">
+	</section>
+	</div>	
+
+	<section>
+		<center>
+			<h1>Configuracion de parida</h1>
+		</center>
+	</section>
+</section>
+
+<section class="dificultad">
+	<center>
+		<h2>Dificultad</h2>
+		<div ng-controller="ConfiguracionJugarController as ctrl">
+			<div>
+				<center>
+				<select ng-model="ctrl.dificultad">
+					<option selected>Escoja una dificultad</option>
+					<option ng-value="1" >Facil</option>
+					<option ng-value="2">Normal</option>
+					<option ng-value="3">Dificil</option>
+				</select>
+			</center>
+				<button class="Cfbtn" ng-click="ctrl.seleccionarDificultad(ctrl.dificultad)">Iniciar partida</button>
+			</div>
+		</div>
+	</center>
+</section>

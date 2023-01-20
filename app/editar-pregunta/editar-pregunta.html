@@ -1,0 +1,39 @@
+<div class="row">
+	<header>
+		<section class="encabezado">
+
+			<img src="img\header.jpeg">
+			<center>
+				<h2>SCRUMIZATE</h2>
+			</center>
+		</section>
+	</header>
+</div>
+<div class="titulo-mantenimiento" ng-controller="EditarPreguntaController as ctrl">
+<center>
+    <h1 class="titulo_m">Editar Pregunta</h1><br>
+    <form>
+		<p>Nivel:</p>
+        <select  name="" id="" ng-model="ctrl.d_p">
+            <option selected value="{{ctrl.d_p}}" > {{ctrl.d}}</option>
+                <option value="1">Fácil</option> 
+                <option value="2">Normal</option> 
+                <option value="3">Difícil</option> 
+        </select>
+            <br><br><p class="campos">Pregunta: <br><input type="text" value="{{ctrl.p}}" size="40" ng-model="ctrl.p"></p>
+            <p class="campos">Respuesta Correcta: <br><input type="text" name="nombre" value="{{ctrl.r_c}}" size="40" ng-model="ctrl.r_c"></p>
+            <p class="campos">Respuesta Incorrecta 1: <br><input type="text" name="nombre" value="{{ctrl.r_i1}}" size="40" ng-model="ctrl.r_i1"></p>
+            <p class="campos">Respuesta Incorrecta 2: <br><input type="text" name="nombre" value="{{ctrl.r_i2}}" size="40" ng-model="ctrl.r_i2"></p>
+            <p class="campos">Respuesta Incorrecta 3: <br><input type="text" name="nombre" value="{{ctrl.r_i3}}" size="40" ng-model="ctrl.r_i3"></p>
+			<br>
+            <input class="btn btn-dark" type="submit" value="Guardar" ng-click="ctrl.editarPregunta()">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input class="btn btn-dark" type="reset" value="Cancelar" ng-click="ctrl.cancelar()">
+        </p>    
+    </form>
+<center>
+    <br>
+    <br>
+</div>
+
+	

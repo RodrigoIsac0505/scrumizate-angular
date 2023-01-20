@@ -1,0 +1,61 @@
+<div class="row">
+	<header>
+		<section class="encabezado">
+
+			<img src="img\header.jpeg">
+			<center>
+				<h2>SCRUMIZATE</h2>
+			</center>
+		</section>
+
+	</header>
+</div>
+<div class="ldLogin">
+	<img src="img/fisc.png" width="150px">
+	<h1>F</h1>
+	<h1>I</h1>
+	<h1>S</h1>
+	<h1>C</h1>
+</div>
+<div class="container" ng-controller="LoginController as ctrl">
+	<div class="fondoLogin">
+		<div class="fmlogin d-flex justify-content-center h-100">
+			<div class="card">
+				<div class="card-header">
+					<center><h3>Login</h3></center>
+				</div>
+				<div class="card-body">
+					<form>
+						<div class="input-group form-group">
+							<div class="input-group-prepend">
+								<span class="input-group-text"><i class="fas fa-user"></i></span>
+							</div>
+							<input type="text" class="form-control" placeholder="Usuario" ng-model="ctrl.username">
+
+						</div>
+						<div class="input-group form-group">
+							<div class="input-group-prepend">
+								<span class="input-group-text"><i class="fas fa-key"></i></span>
+							</div>
+							<input type="password" class="form-control" placeholder="password" ng-model="ctrl.password">
+						</div>
+						<div class="form-group">
+							<input type="submit" value="Login" class="btn float-right login_btn"
+								ng-click="ctrl.daClick()">
+								<input type="submit" value="Regitrar" class="btn float-right login_btn"
+								ng-click="ctrl.registrar()">
+						</div>
+					</form>
+				</div>
+			</div>
+			<input type="submit" value="Nosotros" class="nostrosbtn btn login_btn"
+								ng-click="ctrl.nosotros()">
+		</div>
+	</div>
+</div>
+<div class="liLogin">
+	<img src="img/utp.png" width="150">
+	<h1>U</h1>
+	<h1>T</h1>
+	<h1>P</h1>
+</div>
